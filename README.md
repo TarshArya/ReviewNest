@@ -1,2 +1,24 @@
-# ReviewNest
-A web app to fetch and analyze real-time product reviews from online sources. Implemented AI-generated summaries, pros &amp; cons extraction, and side-by-side product comparison. Built using Python, Streamlit, and APIs to help users make faster, smarter, and more informed purchase decisions.
+# ReviewNest – AI Product Review Aggregator
+
+ReviewNest is a web application that helps users make smarter purchase decisions by collecting and analyzing product reviews from online sources.
+
+## 🚀 Features
+- 🔍 Fetch real-time product reviews from external APIs  
+- 🤖 AI-generated summary of reviews  
+- ✅ Automatic extraction of pros and cons  
+- ⚖️ Side-by-side product comparison  
+- 📱 Simple and user-friendly interface  
+
+## 🛠️ Tech Stack
+- Python  
+- Streamlit  
+- APIs (RapidAPI / Amazon Data)  
+- OpenAI API  
+
+## 💡 Problem Statement
+Users often struggle to go through hundreds of reviews before making a purchase. ReviewNest simplifies this by summarizing reviews and highlighting key insights instantly.
+
+## ⚙️ How to Run
+```bash
+pip install -r requirements.txt
+streamlit run 0_Home.py
